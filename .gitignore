@@ -1,3 +1,8 @@
+%cd DeepFaceLab
+# Update the .gitignore file with the new content
+with open(".gitignore", "w") as gitignore_file:
+    gitignore_file.write("""
+
 *
 !*.py
 !*.md
