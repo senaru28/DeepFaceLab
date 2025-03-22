@@ -6,3 +6,24 @@
 !requirements*
 !Dockerfile*
 !*.sh
+
+# Ignore directories
+/build/
+/venv/
+
+/data_dst/
+/data_src/
+/data_src/aligned/
+/data_dst/aligned/
+/workspace/model/
+
+# Ignore logs
+*.log
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
