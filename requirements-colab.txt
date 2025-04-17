@@ -1,6 +1,6 @@
-# Minimal requirements with compatibility in mind
+# Keep it minimal and compatible with Python 3.11
 tqdm
-numpy>=1.24.0
+numpy>=1.24.0  # Allow newer versions
 numexpr
 h5py>=3.8.0
 opencv-python>=4.8.0
